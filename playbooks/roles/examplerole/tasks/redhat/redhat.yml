@@ -1,0 +1,6 @@
+# Do the Red Hat tasks
+#
+#---
+#- name: "Do the thing"
+#  shell:
+#    echo "that thing I do"

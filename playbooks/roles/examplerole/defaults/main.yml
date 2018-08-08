@@ -1,1 +1,14 @@
 # See docs at https://docs.ansible.com/ansible/2.5/user_guide/playbooks_reuse_roles.html
+#
+# This file is where your config variables live
+#---
+#your_install_dir: "/var/local/foo"
+#your_product_version: "1.3"
+#
+#
+#
+#
+#
+#
+#
+#

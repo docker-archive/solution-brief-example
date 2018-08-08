@@ -1,0 +1,7 @@
+# Main tasks file
+#
+#- name: install on RHEL
+#  import_tasks: redhat.yml
+#  when: ansible_os_platform|lower == 'redhat'
+#- import_tasks: debian.yml
+#  when:ansible_os_platform|lower == 'debian'

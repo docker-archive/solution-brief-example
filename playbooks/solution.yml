@@ -1,2 +1,12 @@
 # placeholder for Ansible yml file
 # See docs at https://docs.ansible.com/ansible/2.5/user_guide/playbooks_reuse_roles.html
+#
+#---
+#- name: "Install your product"
+#  hosts: all
+#  strategy: free
+#  gather_facts: False
+#  roles:
+#  - role: examplerole
+#
+#
