@@ -15,16 +15,41 @@ As an example (edit this to fit your requirements):
 
 ## Installation and Configuration
 
+Start your brief by cloning this repository. You don't have to fork it - just clone it (or make a reasonable facsimile) and set up your own repository. Docker needs access to it for submodule inclusion into our publishing release process.
+
 Provide detailed, step-by-step instructions for your Solution Brief here. If there is automation involved, then start with the inclusion of your automation code into a Docker EE deployment, and then how to make sure the automation run starts correctly.
 
 1. First step:
     Include shell and/or code snippets for each step
 
     ```
+    % git clone git@github.com/docker/dci-brief-example
+    ```
+
+2. Second step:
+    Set up your own git repository hosting. For example, if you're using GitHub, log in and create a new repo. Then, point your cloned copy of our sample to the new, empty repository in GitHub:
+
+    ```
+    git remote add origin git@github.com:yourcompany/name_of_your_new_solution_brief
+    git push -u origin master
+    ```
+
+3. Third step:
+    Use this readme.md file as an example, and write your own procedural docs to install/integrate your product with Docker EE:
+
+    ```
+    vi readme.md
+    git commit -m "updated some docs"
+    ```
+
+    Make sure to use step-by-step examples:
+
+    ```
     % docker info
     ```
-2. Second step:
-    Also include example output as needed:
+
+    and include output when necessary:
+
     ```
     Containers: 0
     Running: 0

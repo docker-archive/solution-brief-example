@@ -1,7 +1,12 @@
 # Main tasks file
 #
-#- name: install on RHEL
-#  import_tasks: redhat.yml
-#  when: ansible_os_platform|lower == 'redhat'
-#- import_tasks: debian.yml
-#  when:ansible_os_platform|lower == 'debian'
+#- name: "Installation ({{ ansible_os_family }})."
+#  include_tasks: "{{ os_family }}.yml"
+#  when: ansible_os_family == os_family
+#  with_items:
+#    - "Debian"
+#    - "RedHat"
+#    - "Suse"
+#    - "Windows"
+#  loop_control:
+#    loop_var: os_family
