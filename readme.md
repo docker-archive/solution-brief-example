@@ -10,8 +10,9 @@ List the assets that your users need to successfully complete the tasks in your 
 
 As an example (edit this to fit your requirements):
 
-- [Docker EE 17.06 Platform on VMware vSphere](https://success.docker.com/article/certified-infrastructures-vmware-vsphere)
+- [Docker EE 17.06 Platform on VMware vSphere](https://success.docker.com/article/vsphere-storage/)
 - VSphere 6.0
+- Linux kernel 4.2.1 minimum
 
 ## Installation and Configuration
 
@@ -68,7 +69,7 @@ Provide detailed, step-by-step instructions for your Solution Brief here. If the
 
 ## Best Practice Recommendations
 
-None Yet
+When updating your solution brief, Docker should automatically pull in your changes during our documentation releases. In the event you need to get the content published faster (ie: bugfix issues), contact your Docker partner representative so they can notify the publishing team.
 
 ## Monitoring and Troubleshooting
 
