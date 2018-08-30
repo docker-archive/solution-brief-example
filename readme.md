@@ -1,3 +1,26 @@
+---
+title: "Docker Example Solution Brief"
+summary: "Docker Solution Briefs enable you to integrate the Docker container platform with popular 3rd party ecosystem solutions. This Solution Brief is a self-documenting guide to writing your own. Clone
+this repo and go. Make sure to edit these tags."
+type: guide
+author: khudgins
+visibleto: loggedinleads
+campaign: "docker-certified-infrastructure"
+product:
+  - ee
+testedon:
+  - "ee-17.06.2-ee-7"
+  - "ucp-2.2.5"
+  - "dtr-2.4.2"
+platform:
+  - linux
+tags:
+  - "solution-brief"
+  - storage
+dateModified: "2018-04-24T13:24:21+00:00"
+dateModified_unix: 1524576261
+uniqueid: KB000669
+---
 ## Overview
 
 Docker Solution Briefs enable you to integrate the Docker Enterprise Edition (EE) container platform with popular 3rd party ecosystem solutions for networking, load balancing, storage, logging and monitoring, access management, and more.
